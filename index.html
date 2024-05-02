@@ -3,40 +3,134 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fashionable Clothes</title>
+    <title>EzyBuy - eCommerce website</title>
   </head>
   <body>
     <header>
-      <div class="navbar">
-        <div class="nav-logo">
-          <img src="Logo.png" alt="logo" height="150" width="200">
-        </div>
-      <nav>
+      <div class="header-news">
+        <p>
+          <b>ZERO SHIPPING COSTS</b>
+          ON ALL ORDERS OVER - $80 THIS WEEK
+        </p>
+      </div>
 
-          <ul>
-            <li class="new" type="none"><a>New</a></li>
-            <li class="women" type="none"><a>Women</a></li>
-            <li class="men" type="none"><a>Men</a></li>
-            <li class="kids" type="none"><a>Kids</a></li>
-            <li class="collection" type="none"><a>Collection</a></li>
-            <li class="brands" type="none"><a>Brands</a></li>
-            <li class="sale" type="none"><a>Sale</a></li>
-            <li class="gifts" type="none"><a>Gifts</a></li>
+      <div class="currency-lang">
+        <select name="currency" id="currency">
+          <option value="usd">USD &dollar;</option>
+          <option value="inr">INR ₹</option>
+          <option value="eur">EUR &euro;</option>
+        </select>
+
+        <select name="language" id="language">
+          <option value="en-US">English</option>
+          <option value="german">Deutsch</option>
+          <option value="french">Français</option>
+        </select>
+      </div>
+
+      <div class="header-main">
+        <div class="container">
+          <a href="#" class="header-logo">
+            <img
+              src=".\Images\Ezybuy logo.png"
+              alt="EzyBuy logo"
+              width="120"
+              height="120"
+            />
+          </a>
+
+          <div class="header-search-container">
+            <input
+              type="search"
+              name="search"
+              class="search-field"
+              placeholder="Enter product name..."
+            />
+            <button class="search-btn"></button>
+          </div>
+        </div>
+      </div>
+      <nav class="desktop-nav-menu">
+        <div class="container">
+          <ul class="desktop-menu-category-list">
+            <li type="none" class="menu-category">
+              <a href="#" class="menu-title">Home</a>
+            </li>
+            <li type="none" class="menu-category">
+              <a href="#" class="menu-title">Category</a>
+            </li>
+            <li type="none" class="menu-category">
+              <a href="#" class="menu-title">MEN'S</a>
+            </li>
+            <li type="none" class="menu-category">
+              <a href="#" class="menu-title">WOMEN'S</a>
+            </li>
+            <li type="none" class="menu-category">
+              <a href="#" class="menu-title">JEWELRY</a>
+            </li>
+            <li type="none" class="menu-category">
+              <a href="#" class="menu-title">PERFUME</a>
+            </li>
+            <li type="none" class="menu-category">
+              <a href="#" class="menu-title">BLOG</a>
+            </li>
+            <li type="none" class="menu-category">
+              <a href="#" class="menu-title">HOT OFFERS</a>
+            </li>
           </ul>
-          <!-- <div class="new">New</div>
-          <div class="women">Women</div>
-          <div class="men">Men</div>
-          <div class="kids">Kids</div>
-          <div class="collection">Collection</div>
-          <div class="brands">Brands</div>
-          <div class="sale">Sale</div>
-          <div class="gifts">Gifts</div> -->
         </div>
       </nav>
     </header>
-    <div id="banner">
-      <img src="Banner.png" alt="Banner" />
-    </div>
+    <main>
+      <!-- BANNER -->
+
+      <div class="banner">
+        <div class="container">
+          <div class="slider-container-has-scrollbar">
+            <div class="slider-item">
+              <img
+                src=".\Images\banner-1.jpg"
+                alt="Women's latest Fashion sale"
+                class="banner-img"
+              />
+              <div class="banner-content">
+                <p class="banner-subtitle">Trending item</p>
+                <h2 class="banner-title">Women's Latest Fashion Sale</h2>
+                <p class="bannner-txt">Starting at &dollar; <b>30</b>.00 </p>
+                <a href="#" class="banner-btn">Shop now</a>
+              </div>
+            </div>
+            <div class="slider-item">
+              <img
+                src=".\Images\banner-2.jpg"
+                alt="Modern Sunglasses"
+                class="banner-img"
+              />
+              <div class="banner-content">
+                <p class="banner-subtitle">Trending Accessories</p>
+                <h2 class="banner-title">Modern Sunglasses</h2>
+                <p class="bannner-txt">Starting at &dollar; <b>20</b>.00 </p>
+                <a href="#" class="banner-btn">Shop now</a>
+              </div>
+            </div>
+            <div class="slider-item">
+              <img
+                src=".\Images\banner-3.jpg"
+                alt="New Fashion Summer sale"
+                class="banner-img"
+              />
+              <div class="banner-content">
+                <p class="banner-subtitle">Sale Offer</p>
+                <h2 class="banner-title">New Fashion Summer Sale</h2>
+                <p class="bannner-txt">Starting at &dollar; <b>29</b>.99 </p>
+                <a href="#" class="banner-btn">Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
     <div class="best-selling">
       <h2>Best Selling Products</h2>
     </div>
